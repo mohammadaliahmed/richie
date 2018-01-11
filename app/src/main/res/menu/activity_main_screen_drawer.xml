@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/hel"
+            android:title="Help" />
+        <item
+            android:id="@+id/how_to"
+            android:icon="@drawable/how"
+            android:title="How to use" />
+        <item
+            android:id="@+id/withdraw"
+            android:icon="@drawable/withdraw"
+            android:title="Withdraw" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/mute"
+            android:icon="@drawable/mute"
+            android:title="Mute" />
+      -->
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/feedback"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>

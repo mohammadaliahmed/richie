@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:padding="15dp"
+    tools:context="com.richierich.apps.richierich.HowToUse">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="How to use"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+
+                android:layout_below="@+id/textView6"
+                android:layout_marginTop="26dp"
+                android:text=" This app allows to earn real paypal money or cash by just clicking button. The amazing thing about this cash app is that you can win upto $300 Paypal Cash in a month. Earn cash anytime  anywhere! It is quick and  fun way to make easy money! The more clicks you do the higher chance to win prizes. \n\n> Just tap Click here button and decrease the counter. once it reaches 0 you will get 1$. Minimum payout is $100. \n\n> You can use boost button to boost the clicks. Just tap and hold the button and counter will come down.\n\n>For rewards, press the button and watch a video ad and when it finishes you will get 500 points
+
+\n\n\n Happy Earning!!
+"
+                android:textAlignment="viewStart"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
